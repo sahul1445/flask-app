@@ -2,8 +2,6 @@
 
 A minimal Flask web application built for learning containerization and deployment to **AWS ECS (Elastic Container Service)**.
 
-Part of the [TrainWithShubham](https://github.com/TrainWithShubham) — DevOps Zero To Hero course.
-
 ![Python](https://img.shields.io/badge/Python-3.14-blue)
 ![Flask](https://img.shields.io/badge/Flask-3.1.1-green)
 ![Docker](https://img.shields.io/badge/Docker-Ready-2496ED)
@@ -68,7 +66,7 @@ docker run -p 80:80 flask-app
 
 ### Simple (`Dockerfile`)
 
-Single-stage build using `python:3.14-slim`. Straightforward — copies everything, installs dependencies, runs the app. Good for development and learning.
+Single-stage build using `python:3.14-slim`. Straightforward — copies everything, installs dependencies, runs the app.
 
 ### Multistage (`Dockerfile-multi`)
 
